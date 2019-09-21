@@ -1,0 +1,13 @@
+table.logo-container td.team-name {
+    word-wrap: normal;
+    font-size: 10pt;
+}
+
+table.logo-container td.team-logo {
+    
+}
+
+
+table.logo-container  {
+    width: 100px;
+}

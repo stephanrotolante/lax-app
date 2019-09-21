@@ -1,0 +1,78 @@
+/* INPUT STYLES */
+.input-container {
+    float: left;
+    width: 100%;
+}
+
+.block {
+    display: block;
+    border:none;
+}
+
+.customize-input {
+    line-height: 30px;
+    font-size: 16pt;
+    width: 100%;
+}
+
+.input-label {
+    /* color: lightseagreen; */
+    font-weight: bold;
+}
+
+.input-wrapper {
+    margin-top: 5px;
+    border: 1.5px solid lightseagreen;
+    border-radius: 4px;
+    padding: 0px 5px;
+}
+/* END OF INPUT STYLES */
+
+/* DROP DOWN STYLES */
+.form-drop-down-cont {
+    display: inline-block;
+    width: 100px;
+}
+
+.form-drop-down-value {
+    margin-top: 4px;
+    display: block;
+    border:1.5px solid lightseagreen;
+    /* border-radius: 4px; */
+    width: 100px;
+    height: 30px;
+    padding: 0px;
+    overflow-y: hidden;
+    box-shadow: 2px 2px rgb(0, 0, 0, .5);
+}
+
+
+.form-drop-down-list {
+    display: block;
+    z-index: 999;
+    width: 100px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: lightseagreen;
+    margin-top: 5px;
+
+}
+
+.form-drop-down-value div{
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+}
+
+.quarter {
+    width: 21px;
+    background-color: lightseagreen;
+    border-right: 1px solid lightseagreen;
+}
+
+.three-quarter {
+    width: 75px;
+}
+/* END OF DROP DOWN STYLES */

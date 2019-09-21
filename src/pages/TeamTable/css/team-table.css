@@ -1,0 +1,49 @@
+.team-table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+.team-table tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+
+.team-table th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+.add-border {
+    border: .5px solid black;
+}
+
+.fluid {
+    width: 100%;
+}
+
+.team-table th {
+    background-color: black;
+    color: white;
+      
+}
+
+.team-table th:nth-child(1) {
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
+
+.team-table th:nth-last-child(1) {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+
+
+.card-table {
+    border-collapse: collapse;
+}

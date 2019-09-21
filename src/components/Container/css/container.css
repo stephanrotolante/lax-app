@@ -1,0 +1,14 @@
+.container[mobile-size=true] {
+   width: 100%;
+}
+
+.container[mobile-size=false] {
+  width: 1024px;
+  margin: 0px auto;
+}
+
+
+* {
+  overflow-x: hidden;
+  outline: none;
+}

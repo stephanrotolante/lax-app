@@ -1,0 +1,60 @@
+.lax-app-main-nav-bar {
+    background-color: black;
+    position: sticky;
+    top:0;
+}
+
+
+.lax-app-main-nav-bar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.lax-app-main-nav-bar li {
+   float:left;
+   padding: 0px;
+}
+
+
+.lax-app-main-nav-bar li a {
+    font-size: 12pt;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.lax-app-main-nav-bar li a[data-active=true] {
+    transition-delay: .1s;
+    color: black;
+    background-color:royalblue;
+}
+
+.lax-app-main-nav-bar li a[data-active=false]:hover {
+    transition-delay: .1s;
+    color: black;
+    background-color: royalblue;
+}
+
+
+.lax-app-main-nav-bar li.test {
+    margin-bottom:-4px;
+}
+
+.lax-app-main-nav-bar li.test a{
+    display: inline-block;
+    margin: 0px;
+    height: 100%;
+}
+
+/* .lax-app-main-nav-bar li.test img {
+    margin: 0px;
+    height:18px;
+    display: block;
+} */
+.lax-app-main-nav-bar li.test a:hover {
+    background-color: royalblue;
+}
